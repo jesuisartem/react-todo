@@ -3,6 +3,8 @@
     font-size: 2rem;
     display: flex;
     justify-content: center;
+    align-items: end;
+    gap: 1rem;
 }
 
 .todo-item__status {
@@ -10,7 +12,13 @@
     align-items: center;
 }
 
-.todo-item input {
+.todo-item__input {
+    height: 100%; /* любая высота */
+    box-sizing: border-box; /* чтобы padding и border не увеличивали высоту */
+    padding: 10px; /* опционально */
+}
+
+.todo-item .status-checkbox {
     width: 2rem;
     height: 2rem;
 }
