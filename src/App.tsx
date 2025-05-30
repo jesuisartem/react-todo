@@ -1,10 +1,12 @@
 import './App.css'
-import TodoList from './components/TodoList'
+import TodoList from './components/TodoList/TodoList'
 
 function App() {
   return (
     <>
-      <TodoList></TodoList>
+      <div className='todo-list-wrapper'>
+        <TodoList></TodoList>
+      </div>
     </>
   )
 }

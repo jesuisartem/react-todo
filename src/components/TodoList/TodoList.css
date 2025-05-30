@@ -1,0 +1,20 @@
+.todo-list {
+    width: 1000px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 8px 10px 10px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.todo-list__input {
+    display: flex;
+    gap: 1rem;
+}
+
+.todo-list__input input {
+    width: 100%;
+}

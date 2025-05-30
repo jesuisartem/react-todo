@@ -1,0 +1,20 @@
+.todo-item {
+    width: 100%;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.todo-item__status {
+    display: flex;
+    align-items: center;
+}
+
+.todo-item input {
+    width: 2rem;
+    height: 2rem;
+}
+
+.todo-item__value_done {
+    text-decoration: line-through;
+}
